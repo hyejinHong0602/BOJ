@@ -67,3 +67,56 @@
 #         print('*',end='')
 #     print()
 
+#10871번
+# n,x =map(int, input().split())
+#
+# a=list(map(int, input().split())) #다시 체크하기
+#
+# for j in range(n):
+#     if a[j]<x:
+#         print(a[j], end=' ')
+
+#10817번
+# a,b,c =map(int,input().split())
+# mid=a
+# if a>=b:
+#     if b>=c:
+#         mid = b
+#     elif a<=c:
+#         mid = a
+#     else:
+#         mid=c
+# else:
+#     if b<=c:
+#         mid=b
+#     elif a>=c:
+#         mid=a
+#     else:
+#         mid=c
+#
+# print(mid)
+
+#10950번
+# t=int(input())
+# sum=[]
+# for i in range(t):
+#     a,b=map(int,input().split())
+#     sum.append(a+b)
+#
+# for j in range(t):
+#     print(sum[j])
+
+#10952번
+# while True:
+#     a, b = map(int, input().split())
+#     if (a!=0 and b!=0):
+#         print(a+b)
+#     else:
+#         break
+
+#2440번
+# n=int(input())
+# for i in range(n):
+#     for j in range(n-i):
+#         print('*',end='')
+#     print()
