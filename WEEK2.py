@@ -67,10 +67,30 @@
 #         break
 #     print(sum)
 #
-
 #1이면 2cm
 #0이면 4cm
 #나머지는 3cm
+
+#1547
+# m=int(input())
+# c=[0,1,0,0]
+# for i in range(m):
+#     x, y=map(int,input().split())
+#     c[x],c[y]=c[y],c[x]
+# print(c.index(1))
+
+#2010
+
+# n = int(input())
+# sum = 0
+# for i in range(n):
+#     t=int(input())
+#     sum += t
+# print(sum - (n - 1))
+
+#2163
+# n, m = map(int, input().split())
+# print(n*m-1)
 
 #2443 - 별 찍기6
 # n=int(input())
