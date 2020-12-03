@@ -60,9 +60,7 @@
 #         sum = sum + 4
 #     else:
 #         sum = sum + 3
-#
-#
-#
+
 #     if n==0:
 #         break
 #     print(sum)
@@ -92,6 +90,13 @@
 # n, m = map(int, input().split())
 # print(n*m-1)
 
+#2442
+# n = int(input())
+#
+# for i in range(1,n+1):
+#     print(' ' * (n - i) + '*' * (2 * i - 1))
+
+
 #2443 - 별 찍기6
 # n=int(input())
 # for i in range(n):
@@ -100,3 +105,10 @@
 #     for k in range(2*(n-i)-1):
 #         print("*",end='')
 #     print()
+
+#2447
+# n = int(input())
+# for i in range(1, n):
+#     print(' '*(n-i) + '*'*(2*i-1))
+# for i in range(n, 0, -1):
+#     print(' '*(n-i) + '*'*(2*i-1))
