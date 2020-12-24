@@ -66,3 +66,52 @@
 #         print("*", end='')
 #     print()
 
+#2455 - 지능형 기차
+# M=0
+# sum=0
+# for i in range(4):
+#     a, b=map(int, input().split())
+#     sum-=a
+#     sum+=b
+#     if sum>M:
+#         M=sum
+# print(M)
+
+#2460 - 지능형 기차2
+# M=0
+# sum=0
+# for i in range(10):
+#     a, b=map(int, input().split())
+#     sum-=a
+#     sum+=b
+#     if sum>M:
+#         M=sum
+# print(M)
+
+#2490 - 윷놀이
+# for i in range(3):
+#     a, b, c, d = map(int, input().split())
+#     if a+b+c+d==0: #윷
+#         print('D')
+#     elif a+b+c+d==1: #도
+#         print('C')
+#     elif a+b+c+d==2: #개
+#         print('B')
+#     elif a+b+c+d==3: #걸
+#         print('A')
+#     elif a+b+c+d==4: #모
+#         print('E')
+
+#2506 - 점수계산
+# n=int(input()) #문제 수
+# t=list(map(int,input().split()))
+# sum=0
+# res=0
+# for i in range(n):
+#     if t[i]==1:
+#         sum+=1
+#         res+=sum
+#     else:
+#         sum=0
+# print(res)
+
