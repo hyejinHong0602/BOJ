@@ -115,7 +115,7 @@
 #         sum=0
 # print(res)
 
-# #2511 - 카드놀이
+#2511 - 카드놀이
 # a_score=0
 # b_score=0
 # a=list(map(int,input().split()))
@@ -136,3 +136,4 @@
 #     print("B")
 # else:
 #     print("D")
+# a[i]=b[i]일때 코드 더 생각해봐야함.
