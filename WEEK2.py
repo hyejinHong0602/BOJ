@@ -77,6 +77,40 @@
 #     c[x],c[y]=c[y],c[x]
 # print(c.index(1))
 
+#1333 - 부재중 전화
+# n, l, d= map(int,input().split())
+# ring=0
+
+#1703 - 생장점
+# while True:
+#   leef = 1
+#   case = list(map(int, input().split()))
+#   if str(case[0]) != '0':
+#     for i in range(1,case[0]+1):
+#       leef *= case[2*i-1]
+#       leef -= case[2*i] #가지치기
+#     print(leef)
+#   else:
+#       break
+
+#1864 - 문어 숫자
+# List = ['-','\\','(','@','?','>','&','%']
+# while True:
+#   N = list(input())
+#   if N[0] =='#':
+#       break
+#   for i in range(len(N)):
+#      for j in List:
+#        if N[i] == j :
+#          N[i] = List.index(j)
+#        elif N[i] == '/' :
+#           N[i] = -1
+#   A = 0
+#
+#   for i in range(len(N)):
+#     A += N[i]*(8**(len(N)-1-i))
+#   print(A)
+
 #2010
 
 # n = int(input())

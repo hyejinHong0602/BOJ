@@ -115,3 +115,24 @@
 #         sum=0
 # print(res)
 
+# #2511 - 카드놀이
+# a_score=0
+# b_score=0
+# a=list(map(int,input().split()))
+# b=list(map(int,input().split()))
+#
+# for i in range(10):
+#     if a[i] > b[i]:
+#         a_score += 3
+#     elif a[i] < b[i]:
+#         b_score += 3
+#     else:
+#         a_score += 1
+#         b_score += 1
+# print(a_score, b_score)
+# if a_score > b_score :
+#     print("A")
+# elif a_score < b_score :
+#     print("B")
+# else:
+#     print("D")
