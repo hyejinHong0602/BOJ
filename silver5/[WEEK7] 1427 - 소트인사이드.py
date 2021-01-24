@@ -1,4 +1,3 @@
-
 n =input()
 n_list = list(n)
 idx=len(n_list)
