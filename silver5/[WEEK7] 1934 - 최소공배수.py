@@ -7,7 +7,7 @@ for i in range(n):
     multiple_ab = a * b
 
     mod = b % a
-    while mod != 0:
+    while mod != 0: 
         if mod != 0:
             b = a
             a = mod
@@ -16,4 +16,4 @@ for i in range(n):
 
     gcd = a
     print(multiple_ab // gcd)
-     # 최소공배수
+    # 최소공배수
